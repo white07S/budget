@@ -4,6 +4,7 @@ import uvicorn
 
 from app.api.api_v1.routers.users import users_router
 from app.api.api_v1.routers.auth import auth_router
+from app.api.api_v1.routers.budget import budgetrouter
 from app.core import config
 from app.db.session import SessionLocal
 from app.core.auth import get_current_active_user
@@ -43,6 +44,7 @@ app.include_router(
     tags=["users"],
     dependencies=[Depends(get_current_active_user)],
 )
+# app.include_router(budgetrouter,prefix="/api/v1",tags=["budget"])
 app.include_router(auth_router, prefix="/api", tags=["auth"])
 
 if __name__ == "__main__":

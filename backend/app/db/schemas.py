@@ -1,5 +1,7 @@
 from pydantic import BaseModel
 import typing as t
+from typing import Optional, List
+
 
 
 class UserBase(BaseModel):

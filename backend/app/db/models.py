@@ -1,6 +1,7 @@
-from sqlalchemy import Boolean, Column, Integer, String, TIMESTAMP,ForeignKey
+from sqlalchemy import Boolean, Column, Integer, String, TIMESTAMP,ForeignKey, ARRAY
 from sqlalchemy.ext.mutable import MutableList
 from .session import Base
+from sqlalchemy.sql.expression import text
 
 
 class User(Base):
