@@ -11,13 +11,24 @@ An API for Family Budget project in Django
   - Docs:
       - [Markdown Lint](https://github.com/igorshubovych/markdownlint-cli)
       
-# RUN and compile
-`chmod +x /scripts/build.sh`
-`./build.sh`
-`docker-compose up -d`
+# Compile and Run
+
+```
+chmod +x /scripts/build.sh
+```
+
+```
+./scripts/build.sh
+```
+
+```
+docker-compose up -d
+```
 
 * if want to test backend
-`./scripts/test_backend.sh`
+```
+./scripts/test_backend.sh
+```
 
 
       
@@ -51,3 +62,7 @@ An API for Family Budget project in Django
 - [x] /signup
 - [x] /budget
 - [x] /share with id as list in input
+
+
+NOTE: for production we need to change docker param and setup env 
+
