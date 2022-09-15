@@ -11,6 +11,15 @@ An API for Family Budget project in Django
   - Docs:
       - [Markdown Lint](https://github.com/igorshubovych/markdownlint-cli)
       
+# RUN and compile
+`chmod +x /scripts/build.sh`
+`./build.sh`
+`docker-compose up -d`
+
+* if want to test backend
+`./scripts/test_backend.sh`
+
+
       
 - [x] Functionalities
   - [x] User Registration
@@ -26,3 +35,19 @@ An API for Family Budget project in Django
   - [x] Search based on Category(Income,Expenses)
   - [x] CORS configuration (Its configured for all domain) [For production: it will be restricted to list or orgin needed for api]
   - [x] NGINX added
+  - [ ] Frontend half-done
+
+
+
+- [x] Get methods
+- [x] /users/{id} by id
+- [x] /budget 
+- [x] /budget based on URL pagination and serach by category like /budget?limit=10@search="expenses"
+- [x] /getallbudget
+  
+
+- [x] Post Methods
+- [x] /login
+- [x] /signup
+- [x] /budget
+- [x] /share with id as list in input
