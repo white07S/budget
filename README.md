@@ -1,3 +1,7 @@
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/white07S/budget)
+![GitHub repo size](https://img.shields.io/github/repo-size/white07S/budget)
+![GitHub last commit](https://img.shields.io/github/last-commit/white07S/budget)
+
 # FamilyBudget
 An API for Family Budget project in Django 
 
